@@ -33,9 +33,9 @@ public class Demenagement {
             System.out.println(message);
             input = keyboard.nextLine();
             if (isInteger(input)) {
-                int integerInput = Integer.parseInt(input);
-                if (integerInput >= 0) {
-                    return integerInput;
+                int validatedInteger = Integer.parseInt(input);
+                if (validatedInteger >= 0) {
+                    return validatedInteger;
                 } else {
                     System.out.println("Erreur : veuillez entrer un nombre positif");
                 }
