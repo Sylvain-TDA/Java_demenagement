@@ -1,3 +1,12 @@
+/**
+ * Le but de la classe est de déterminer le nombre de cartons déplacé par voyage lors d'un déménagement.
+ * L'utilisateur doit renseigner le nombre de cartons à déménager ainsi que la capacité du moyen de transport.
+ *
+ * @author Sylvain
+ * @version 1.0
+ * @since 2025-08-12
+ */
+
 import java.util.Scanner;
 
 public class Demenagement {
